@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sample test Suite">
+   <test name="Sample test">
+   <parameter name="config" value="config.properties"></parameter>
+    <classes>
+      <!-- <class name="com.webtest.pageTest.GmailTests" />  -->
+      <class name="com.webtest.pageTest.GmailSendReceiveTests" />
+    </classes>
+  </test>
+</suite>	
